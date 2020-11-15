@@ -1,0 +1,46 @@
+$primaryFont: 'Poppins', sans-serif;
+$secondaryFont: 'Montserrat', sans-serif;
+body {
+	font-family: $primaryFont;
+}
+
+h1 {
+	font-family: $secondaryFont;
+}
+
+h2 {
+	font-family: $primaryFont;
+}
+
+.navbar-brand img {
+	width: 130px;
+}
+
+.navbar a {
+	font-family: $primaryFont;
+	font-weight: 500;
+}
+
+.banner-section {
+	background-image: url('../images/banner.png');
+	background-blend-mode: overlay;
+	background-color: rgba(0, 0, 0, 0.7);
+	background-size: contain;
+
+	h1 {
+		font-size: 48px;
+	}
+}
+
+.search-form {
+	input {
+		font-size: 16px;
+	}
+
+	button {
+		font-family: 'Poppins', sans-serif;
+		text-transform: capitalize;
+		font-weight: 400;
+		font-size: 16px;
+	}
+}
