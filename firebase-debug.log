@@ -1,0 +1,21 @@
+[debug] [2020-11-16T09:59:33.177Z] ----------------------------------------------------------------------
+[debug] [2020-11-16T09:59:33.179Z] Command:       /usr/local/Cellar/node/15.1.0/bin/node /usr/local/bin/firebase init
+[debug] [2020-11-16T09:59:33.179Z] CLI Version:   8.14.1
+[debug] [2020-11-16T09:59:33.179Z] Platform:      darwin
+[debug] [2020-11-16T09:59:33.180Z] Node Version:  v15.1.0
+[debug] [2020-11-16T09:59:33.181Z] Time:          Mon Nov 16 2020 15:59:33 GMT+0600 (Bangladesh Standard Time)
+[debug] [2020-11-16T09:59:33.182Z] ----------------------------------------------------------------------
+[debug] [2020-11-16T09:59:33.182Z] 
+[debug] [2020-11-16T09:59:33.191Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-16T09:59:33.192Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/mdmarufahmed/Desktop/ReactProjects/apartment-hunt/apartment-client
+

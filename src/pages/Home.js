@@ -2,12 +2,15 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Apartment from "../components/ApartmentLists";
 import Banner from "../components/Banner";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 import Service from "../components/Service";
 import data from "../homelist.data";
 
 const Home = () => {
   return (
     <>
+      <Header />
       <Banner />
       <Container>
         <div className="home-list-title text-center py-5">
@@ -26,6 +29,7 @@ const Home = () => {
         </Row>
         <Service />
       </Container>
+      <Footer />
     </>
   );
 };

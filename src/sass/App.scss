@@ -142,3 +142,38 @@ footer {
 		font-size: 16px;
 	}
 }
+
+.login-logo {
+	width: auto;
+	margin: auto;
+	text-align: center;
+
+	img {
+		width: 200px;
+		margin: auto;
+	}
+}
+
+.google-login-button {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+
+	.login-button {
+		width: 100%;
+		background-color: transparent;
+		border: 1px solid #ededed;
+		border-radius: 50px;
+		padding: 10px;
+		box-sizing: border-box;
+		font-family: $primaryFont;
+		font-size: 16px;
+		font-weight: 500;
+
+		img {
+			width: 25px;
+			margin-right: 20px;
+			float: left;
+		}
+	}
+}
