@@ -44,3 +44,73 @@ h2 {
 		font-size: 16px;
 	}
 }
+
+.home-list-title {
+	p {
+		font-size: 16px;
+		font-family: $primaryFont;
+	}
+
+	h3 {
+		font-size: 34px;
+		font-weight: 700;
+		color: #16322e;
+	}
+}
+
+.apartment-title {
+	font-size: 22px !important;
+	font-weight: 600;
+	font-family: $primaryFont;
+}
+
+.place-name {
+	font-size: 16px;
+	font-family: $primaryFont;
+	font-weight: 500;
+}
+
+.bedroom,
+.bathroom {
+	font-size: 16px;
+	font-family: $primaryFont;
+}
+
+.price {
+	font-size: 34px;
+	font-family: $primaryFont;
+	font-weight: 600;
+}
+
+.details-button {
+	font-size: 16px;
+	font-family: $primaryFont;
+	font-weight: 500;
+	margin-top: 6px;
+}
+
+.service-list-title {
+	p {
+		font-size: 16px;
+		font-family: $primaryFont;
+	}
+
+	h3 {
+		font-size: 34px;
+		font-weight: 700;
+		color: #16322e;
+	}
+}
+
+.card {
+	.card-img-top {
+		width: 60% !important;
+		margin: auto;
+		padding: 50px;
+		box-sizing: border-box;
+	}
+
+	.card-title {
+		font-size: 20px;
+	}
+}
