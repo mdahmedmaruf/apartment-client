@@ -102,7 +102,7 @@ h2 {
 	}
 }
 
-.card {
+.service-lists.card {
 	.card-img-top {
 		width: 60% !important;
 		margin: auto;
@@ -112,5 +112,33 @@ h2 {
 
 	.card-title {
 		font-size: 20px;
+	}
+}
+
+footer {
+	background-color: #275a53;
+
+	h5 {
+		font-size: 20px;
+	}
+}
+
+.footer-links {
+	h5 {
+		font-size: 20px;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	li {
+		float: left;
+	}
+	a {
+		display: block;
+		color: #ffffff;
+		font-size: 16px;
 	}
 }

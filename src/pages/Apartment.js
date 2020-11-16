@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
+import RequestBooking from "../components/RequestBooking";
 import data from "../homelist.data";
 
 const Apartment = ({ match }) => {
@@ -23,7 +24,9 @@ const Apartment = ({ match }) => {
             <p> {apartment.propertyDetails} </p>
           </div>
         </Col>
-        <Col md={5}></Col>
+        <Col md={5}>
+          <RequestBooking />
+        </Col>
       </Row>
     </Container>
   );
