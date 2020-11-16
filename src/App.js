@@ -1,5 +1,9 @@
 import { createContext, useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import AddRent from "./components/Dashboard/AddRentHouse/AddRent";
+import BookLists from "./components/Dashboard/BookLists/BookLists";
+import Dashboard from "./components/Dashboard/DashboardCommon/Dashboard";
+import MyRent from "./components/Dashboard/MyRent/MyRent";
 import Login from "./components/Login/Login";
 import Apartment from "./pages/Apartment";
 import Home from "./pages/Home";
@@ -17,6 +21,10 @@ function App() {
             <Route path="/" component={Home} exact />
             <Route path="/apartment/:id" component={Apartment} />
             <Route path="/login" component={Login} />
+            <Route path="/dashboard" component={Dashboard} />
+            <Route path="/add-rent" component={AddRent} />
+            <Route path="/my-rent" component={MyRent} />
+            <Route path="/booking-list" component={BookLists} />
           </Switch>
         </main>
       </Router>

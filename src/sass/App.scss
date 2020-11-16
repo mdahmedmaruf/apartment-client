@@ -12,6 +12,13 @@ h2 {
 	font-family: $primaryFont;
 }
 
+.btn {
+	font-size: 16px;
+	text-transform: capitalize !important;
+	font-family: $primaryFont;
+	font-weight: 500 !important;
+}
+
 .navbar-brand img {
 	width: 130px;
 }
@@ -175,5 +182,112 @@ footer {
 			margin-right: 20px;
 			float: left;
 		}
+	}
+}
+
+.profile-pic {
+	img {
+		width: 40px;
+		border-radius: 50%;
+		margin-left: 8px;
+	}
+}
+
+button.bg-transparent.text-dark.dropdown-toggle.btn.btn-primary {
+	padding: 4px !important;
+}
+
+.dropdown {
+	button {
+		font-size: 16px;
+	}
+}
+
+.dropdown-item {
+	font-size: 16px !important;
+}
+
+.btn.focus,
+.btn:focus {
+	box-shadow: 0 !important;
+}
+
+.dashboard-side-nav {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		padding: 10px 0;
+	}
+
+	a {
+		font-size: 18px;
+		font-family: $primaryFont;
+	}
+
+	i {
+		margin-right: 8px;
+		font-size: 22px;
+	}
+}
+
+.dashboard-content {
+	background-color: #f4f7fc;
+	height: 100vh;
+}
+
+.rent-form {
+	background-color: #fff;
+	padding: 40px;
+	border-radius: 10px;
+
+	label {
+		font-family: $primaryFont;
+		font-size: 16px;
+	}
+
+	input {
+		border: 1px solid #cdcdcd;
+		border-radius: 3px;
+		font-family: $primaryFont;
+		font-size: 16px;
+	}
+
+	button {
+		font-family: $primaryFont;
+		font-size: 18px;
+	}
+}
+
+.table {
+	font-family: $primaryFont;
+	font-size: 16px;
+
+	th {
+		text-transform: capitalize !important;
+		font-family: $primaryFont;
+		font-size: 16px;
+		font-weight: 500;
+	}
+}
+
+.request-form {
+	input {
+		font-family: $primaryFont;
+		font-size: 16px;
+	}
+
+	textarea {
+		font-family: $primaryFont;
+		font-size: 16px;
+	}
+
+	button {
+		font-family: $primaryFont;
+		font-size: 18px;
+		width: 100%;
 	}
 }

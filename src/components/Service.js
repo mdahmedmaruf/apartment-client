@@ -14,7 +14,7 @@ const Service = () => {
       </div>
       <Row>
         {servicedata.map((service) => (
-          <Col sm={12} md={6} lg={4} xl={4}>
+          <Col key={service._id} sm={12} md={6} lg={4} xl={4}>
             <Card className="service-lists text-center mb-5">
               <Card.Img variant="top" src={service.image} />
               <Card.Body>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
+import CommonBanner from "../components/CommonBanner";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import RequestBooking from "../components/RequestBooking";
@@ -10,11 +11,12 @@ const Apartment = ({ match }) => {
   return (
     <>
       <Header />
+      <CommonBanner />
       <Container>
-        <Row>
+        <Row className="my-5 py-5">
           <Col md={7}>
             <Image src={apartment.image} alt={apartment.name} />
-            <div className="title-price overflow-hidden">
+            <div className="title-price overflow-hidden mt-5">
               <h3 className="float-left">{apartment.name}</h3>
               <h3 className="float-right"> ${apartment.price} </h3>
             </div>

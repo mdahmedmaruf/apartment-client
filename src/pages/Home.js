@@ -22,7 +22,7 @@ const Home = () => {
         </div>
         <Row>
           {data.map((apartment) => (
-            <Col sm={12} md={6} lg={4} xl={4}>
+            <Col key={apartment._id} sm={12} md={6} lg={4} xl={4}>
               <Apartment apartment={apartment} />
             </Col>
           ))}

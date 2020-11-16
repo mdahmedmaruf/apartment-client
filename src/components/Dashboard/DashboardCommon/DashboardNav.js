@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import { Container, Dropdown, Nav, Navbar } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import { UserContext } from "../App";
-import logo from "../images/Logo.png";
+import { UserContext } from "../../../App";
+import logo from "../../../images/Logo.png";
 
-const Header = () => {
+const DashboardNav = () => {
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
   return (
     <header>
@@ -19,24 +19,6 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <LinkContainer to="/">
-                <Nav.Link>Home</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/about">
-                <Nav.Link>About</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/services">
-                <Nav.Link>Services</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/concerns">
-                <Nav.Link>Concerns</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/event">
-                <Nav.Link>Event</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/contact">
-                <Nav.Link>Contact</Nav.Link>
-              </LinkContainer>
               {loggedInUser.email ? (
                 <>
                   <Dropdown>
@@ -72,4 +54,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default DashboardNav;
