@@ -67,7 +67,7 @@ const Home = () => {
           </h3>
         </div>
         <Row>
-          { homes.length ===0 ? <img className='img-fluid w-50 loader-section' src={loader} alt=""/> : homes.map((apartment) => (
+          { houses.length ===0 ? <img className='img-fluid w-50 loader-section' src={loader} alt=""/> : houses.map((apartment) => (
             <Col key={apartment._id} sm={12} md={6} lg={4} xl={4}>
               <Apartment apartment={apartment} />
             </Col>
